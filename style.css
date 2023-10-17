@@ -1,3 +1,9 @@
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
 a {
     text-decoration: none;
     color: whitesmoke;
@@ -5,6 +11,7 @@ a {
 
 ul {
     list-style-type: none;
+    display: flex
 }
 
 img {
@@ -19,6 +26,10 @@ img {
 .footer {
     background-color: #1F2937;
     color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
 }
 
 .quote {
@@ -26,10 +37,13 @@ img {
 }
 
 .phrase {
-    font-size: 36px;
+    font-size: 18px;
     color: #1F2937;
     font-style: italic;
     font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .author {
@@ -48,8 +62,14 @@ img {
     padding-right: 16px;
 }
 
+.container-last {
+    margin: 16px;
+}
+
 .box {
     background-color: #3882F6;
+    display: flex;
+    color: whitesmoke;
 }
 
 .images h2 {
@@ -63,6 +83,7 @@ img {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    display: flex;
 }
 
 .left-logo {
@@ -85,4 +106,20 @@ img {
     padding: 4px;
     padding-left: 16px;
     padding-right: 16px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-links {
+    gap: 16px;
 }
