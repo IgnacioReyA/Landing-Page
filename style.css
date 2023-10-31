@@ -34,10 +34,17 @@ img {
 
 .quote {
     background-color: #E5E7EB;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
 }
 
 .phrase {
     font-size: 18px;
+    width: 400px;
     color: #1F2937;
     font-style: italic;
     font-weight: lighter;
@@ -48,6 +55,14 @@ img {
 
 .author {
     font-weight: bold;
+    text-align: end;
+    margin-left: 180px;
+    margin-top: 0px
+
+}
+
+.author p {
+    margin-top: 0px
 }
 
 .box button {
