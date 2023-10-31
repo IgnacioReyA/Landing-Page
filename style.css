@@ -64,12 +64,29 @@ img {
 
 .container-last {
     margin: 16px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .box {
     background-color: #3882F6;
     display: flex;
     color: whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 120px;
+    padding-left: 120px;
+    border-radius: 8px;
+}
+
+.box button {
+    margin-top: 40px;
+    margin-left: 90px;
+    margin-bottom: 40px;
 }
 
 .images h2 {
